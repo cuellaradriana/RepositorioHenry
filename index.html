@@ -3,64 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Mi Primer Sitio Web</title>
 </head>
 <body>
     <header>
-        <img src="https://uploads.turbologo.com/uploads/design/hq_preview_image/73524/draw_svg20230419-18343-116a118.svg.png" alt="Logotipo de la Página Web">
-        <h1>Mi Primer Sitio Web</h1>
-        <hr>
+        <div id="header-content">  
+
+            <img src="https://uploads.turbologo.com/uploads/design/hq_preview_image/73524/draw_svg20230419-18343-116a118.svg.png" alt="Logotipo de la Página Web" id="logo">
+            <h1 id="main-title">Mi Primer Sitio Web</h1>
+
+        </div>
     </header>
     <nav>
-        <ul>
-            <li>Inicio</li>
-            <li>Categorías</li>
-            <li>Novedades</li>
-            <li>Ofertas</li>
-            <li>Contacto</li>
+
+       <ul id="nav-content">
+            <li class="nav-items">Inicio</li>
+            <li class="nav-items">Categorías</li>
+            <li class="nav-items">Novedades</li>
+            <li class="nav-items">Ofertas</li>
+            <li class="nav-items">Contacto</li>
         </ul>
-        <hr>
+
     </nav>
     <main>
-        <section>  
-            <h2>Productos Destacados</h2>
-            <article>
-                <h3>Producto 1</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi repellendus quisquam eos quae eaque, nesciunt blanditiis corrupti velit temporibus iure. Nobis, facilis tempora est magni quas repellendus alias architecto minima.</p>+
-                <span>Precio $$$</span>
-            </article>
-            <article>
-                <h3>Producto 2</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi repellendus quisquam eos quae eaque, nesciunt blanditiis corrupti velit temporibus iure. Nobis, facilis tempora est magni quas repellendus alias architecto minima.</p>+
-                <span>Precio $$$</span>
-            </article>
-            <article>
-                <h3>Producto 3</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi repellendus quisquam eos quae eaque, nesciunt blanditiis corrupti velit temporibus iure. Nobis, facilis tempora est magni quas repellendus alias architecto minima.</p>+
-                <span>Precio $$$</span>
-            </article>
-        </section>
-        <aside>
-            <h2>Marcas Aliadas</h2>
-            <ol>
-                <li>Marca 1</li>
-                <li>Marca 2</li>
-                <li>Marca 3</li>
-                <li>Marca 4</li>
-            </ol>
-        </aside>
-        <hr>
+        <div id="main-content">
+
+            <section>  
+                <div id="section-content">
+
+                    <h2 class="section-title">Productos Destacados</h2>
+                    <div id="articles-content">
+
+                        <article class="articles">
+                            <h3 class="article-title">Producto 1</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi repellendus quisquam eos quae eaque, nesciunt blanditiis corrupti velit temporibus iure. Nobis, facilis tempora est magni quas repellendus alias architecto minima.</p>
+                            <span>Precio $$$</span>
+                        </article>
+                        <article class="articles">
+                            <h3 class="article-title">Producto 2</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi repellendus quisquam eos quae eaque, nesciunt blanditiis corrupti velit temporibus iure. Nobis, facilis tempora est magni quas repellendus alias architecto minima.</p>
+                            <span>Precio $$$</span>
+                        </article>
+                        <article class="articles">
+                            <h3 class="article-title">Producto 3</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi repellendus quisquam eos quae eaque, nesciunt blanditiis corrupti velit temporibus iure. Nobis, facilis tempora est magni quas repellendus alias architecto minima.</p>
+                            <span>Precio $$$</span>
+                        </article>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <aside>
+                <div id="aside-content">
+
+                    <h2>Marcas Aliadas</h2>
+                    <ol id="aside-items">
+                        <li>Marca 1</li>
+                        <li>Marca 2</li>
+                        <li>Marca 3</li>
+                        <li>Marca 4</li>
+                    </ol>
+                </div>
+
+            </aside>
+                
+
+        </div>
     </main>
     <footer>
-        <div>
-            <h4>Redes Sociales</h4>
-            <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-            </ul>
+        <div id="footer-content">
+            <div id="socialMedia-content">
+
+                <h4>Redes Sociales</h4>
+                <ul id="socialMedia-items">
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+
+            </div>
+            <p>Copyright&copy; 2024-Página creada por Adriana Cuellar- Todos los derechos reservados</p>
+
         </div>
-        <p>Copyright&copy; 2024-Página creada por Adriana Cuellar- Todos los derechos reservados</p>
     </footer>
 </body>
 </html>
